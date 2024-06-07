@@ -74,6 +74,7 @@ defmodule LiveVue.MixProject do
       {:phoenix, ">= 1.7.0"},
       {:phoenix_live_view, ">= 0.18.0"},
       {:telemetry, "~> 0.4 or ~> 1.0"},
+      {:jsonpatch, "~> 2.2"},
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
       {:mix_test_watch, "~> 1.0", only: [:dev, :test], runtime: false},
       {:expublish, "~> 2.5", only: [:dev], runtime: false}
